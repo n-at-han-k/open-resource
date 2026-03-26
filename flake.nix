@@ -9,19 +9,19 @@
     utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-        ruby = pkgs.ruby_3_4; # Specify version
       in
       {
         devShells.default = pkgs.mkShell {
-          nativeBuildInputs = [
-            pkgs.pkg-config # native extension discovery
+          nativeBuildInputs = with pkgs; [
+            pkg-config
           ];
 
-          buildInputs = [
-            ruby
-            pkgs.nodejs # Assets
-            pkgs.libyaml # psych gem
-            pkgs.openssl # openssl gem
+          buildInputs = with pkgs; [
+            ruby_3_4
+            nodejs
+            libyaml
+            openssl
+            imagemagick
           ];
 
           shellHook = ''
@@ -35,4 +35,3 @@
       }
     );
 }
-
