@@ -1,3 +1,6 @@
 .direnv
-
+.gem/
 /mirrors
+/example/storage/
+/example/log/
+/example/tmp/
