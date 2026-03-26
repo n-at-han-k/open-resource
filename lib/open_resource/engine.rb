@@ -11,11 +11,5 @@ module OpenResource
         ActiveRecord::Migrator.migrations_paths << expanded_path
       end
     end
-
-    # Bootstrap dynamic resources after the app is fully initialized.
-    # This runs after migrations and database connections are ready.
-    config.after_initialize do
-      OpenResource.bootstrap!
-    end
   end
 end
