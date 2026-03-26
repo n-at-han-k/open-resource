@@ -1,0 +1,38 @@
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/bigdecimal-4.0.1/ext/bigdecimal
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+checking for __builtin_clz()... yes
+checking for __builtin_clzl()... yes
+checking for __builtin_clzll()... yes
+checking for float.h... yes
+checking for math.h... yes
+checking for stdbool.h... yes
+checking for stdlib.h... yes
+checking for x86intrin.h... yes
+checking for _lzcnt_u32() in x86intrin.h... no
+checking for _lzcnt_u64() in x86intrin.h... no
+checking for intrin.h... no
+checking for ruby/atomic.h... yes
+checking for ruby/internal/has/builtin.h... yes
+checking for ruby/internal/static_assert.h... yes
+checking for rb_complex_real() in ruby.h... yes
+checking for rb_complex_imag() in ruby.h... yes
+checking for rb_opts_exception_p() in ruby.h... yes
+checking for rb_category_warn() in ruby.h... yes
+checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
+creating Makefile
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/bigdecimal-4.0.1/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rimyvb sitelibdir\=./.gem.20260325-4178892-rimyvb clean
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/bigdecimal-4.0.1/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rimyvb sitelibdir\=./.gem.20260325-4178892-rimyvb
+compiling bigdecimal.c
+compiling missing.c
+linking shared-object bigdecimal.so
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/bigdecimal-4.0.1/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rimyvb sitelibdir\=./.gem.20260325-4178892-rimyvb install
+install -c -p -m 755 bigdecimal.so ./.gem.20260325-4178892-rimyvb
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/bigdecimal-4.0.1/ext/bigdecimal
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rimyvb sitelibdir\=./.gem.20260325-4178892-rimyvb clean

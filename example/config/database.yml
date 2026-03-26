@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  port: 5433
+  username: postgres
+  password:
+
+development:
+  <<: *default
+  database: open_resource_development
+
+test:
+  <<: *default
+  database: open_resource_test

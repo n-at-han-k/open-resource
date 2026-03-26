@@ -1,0 +1,27 @@
+# frozen_string_literal: true
+
+# Mirror repositories
+#
+# Set a source for subsequent mirror declarations:
+#
+#   source "https://github.com"
+#
+# Then declare mirrors with optional custom names:
+#
+#   mirror "user/repo"
+#   mirror "user/other-repo", as: "custom-name"
+#
+# You can change sources mid-file:
+#
+#   source "https://gitlab.com"
+#
+#   mirror "org/project"
+#
+# Or use full URLs without a source:
+#
+#   mirror "https://bitbucket.org/team/repo"
+
+source "https://github.com"
+
+# mirror "rails/rails", as: "rails-source"
+mirror "n-at-han-k/rails-active-ui"

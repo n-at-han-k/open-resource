@@ -1,0 +1,29 @@
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+checking for pkg-config for yaml-0.1... ["-I/nix/store/v9qn9g4fm4818vx30kl7z423vj1mswml-libyaml-0.2.5-dev/include ", "-L/nix/store/fnhs945sa02bg7gki8a3l8r9r44ylx10-libyaml-0.2.5/lib", "-lyaml"]
+creating Makefile
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-imcq7z sitelibdir\=./.gem.20260325-4178892-imcq7z clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:287: clean-so] Error 2 (ignored)
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-imcq7z sitelibdir\=./.gem.20260325-4178892-imcq7z
+compiling psych.c
+compiling psych_emitter.c
+compiling psych_parser.c
+compiling psych_to_ruby.c
+compiling psych_yaml_tree.c
+linking shared-object psych.so
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-imcq7z sitelibdir\=./.gem.20260325-4178892-imcq7z install
+install -c -p -m 755 psych.so ./.gem.20260325-4178892-imcq7z
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/psych-5.3.1/ext/psych
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-imcq7z sitelibdir\=./.gem.20260325-4178892-imcq7z clean
+cd libyaml && make clean
+/bin/sh: 1: cd: can't cd to libyaml
+make: [Makefile:287: clean-so] Error 2 (ignored)

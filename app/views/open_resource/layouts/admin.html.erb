@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenResource Admin</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.9.4/dist/semantic.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css">
+</head>
+<body>
+  <%
+    Menu(inverted: true, size: :large) {
+      Container {
+        MenuItem(href: resources_path) { text "Resources" }
+        MenuItem(href: associations_path) { text "Associations" }
+      }
+    }
+  %>
+
+  <% Container { %>
+    <% if notice %>
+      <% Message(color: :green) { text notice } %>
+    <% end %>
+    <% if alert %>
+      <% Message(color: :red) { text alert } %>
+    <% end %>
+
+    <%= yield %>
+  <% } %>
+
+  <script src="https://cdn.datatables.net/2.2.2/js/dataTables.min.js"></script>
+  <%= fui_javascript_tags %>
+  <%= javascript_importmap_tags rescue nil %>
+  <%= yield :scripts %>
+</body>
+</html>

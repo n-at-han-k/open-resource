@@ -1,0 +1,18 @@
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+/nix/store/s57rf37r1i38kpm3nlv4h8f8z2w2n80d-ruby-3.4.8/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rayk3p sitelibdir\=./.gem.20260325-4178892-rayk3p clean
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rayk3p sitelibdir\=./.gem.20260325-4178892-rayk3p
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rayk3p sitelibdir\=./.gem.20260325-4178892-rayk3p install
+install -c -p -m 755 websocket_mask.so ./.gem.20260325-4178892-rayk3p
+
+current directory: /home/coder/src/ruby/motor/open_resource/.gem/ruby/3.4.0/gems/websocket-driver-0.8.0/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20260325-4178892-rayk3p sitelibdir\=./.gem.20260325-4178892-rayk3p clean
