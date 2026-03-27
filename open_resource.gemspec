@@ -25,4 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "ransack", ">= 4.0"     # Advanced filtering
   spec.add_dependency "kaminari", ">= 1.2"    # Pagination
   spec.add_dependency "rails-active-ui"        # Fomantic-UI component library
+  spec.add_dependency "graphql", "~> 2.0"      # GraphQL runtime + schema DSL
+  spec.add_dependency "graphiql-rails", "~> 1.10" # In-browser GraphQL IDE
 end

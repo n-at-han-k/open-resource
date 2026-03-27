@@ -6,5 +6,6 @@ require "open_resource/engine"
 
 module OpenResource
   autoload :DynamicModelFactory, "open_resource/dynamic_model_factory"
+  autoload :GraphqlSchemaFactory, "open_resource/graphql_schema_factory"
   autoload :YamlLoader, "open_resource/yaml_loader"
 end

@@ -1,7 +1,8 @@
-PATH
-  remote: mirrors/rails-active-ui
+GIT
+  remote: https://github.com/n-at-han-k/rails-active-ui.git
+  revision: 70b1d39363594e13c66e0281016edb445f1bacff
   specs:
-    rails-active-ui (0.2.0)
+    rails-active-ui (0.2.3)
       rails (~> 8.1, >= 8.1.0)
 
 GEM
