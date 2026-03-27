@@ -111,8 +111,9 @@ module OpenResource
           end
 
           # Ransack support.
+          # Include `properties` to enable JSONB prefix search (e.g. properties_name_cont).
           define_singleton_method(:ransackable_attributes) do |auth_object = nil|
-            %w[id resource_id created_at updated_at] + attributes.select(&:filterable).map(&:name)
+            %w[id resource_id properties created_at updated_at] + attributes.select(&:filterable).map(&:name)
           end
 
           define_singleton_method(:ransackable_associations) do |auth_object = nil|

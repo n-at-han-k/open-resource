@@ -1,5 +1,3 @@
-Header(size: :h2, dividing: true) { text "Resources" }
-
 Segment {
   Button(color: :green, icon: "plus", href: new_resource_path) { text "New Resource" }
 }

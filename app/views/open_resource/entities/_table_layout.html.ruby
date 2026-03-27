@@ -1,8 +1,3 @@
-Header(size: :h2, dividing: true) {
-  text @resource.display_label
-  SubHeader { text "#{@entities.count} records" }
-}
-
 Segment {
   Button(href: resource_path(@resource), icon: "setting") { text "Resource Settings" }
 }
