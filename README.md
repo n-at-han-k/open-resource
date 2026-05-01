@@ -1,5 +1,7 @@
 # Open Resource
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/n-at-han-k/open-resource)
+
 A bare minimum, zero-feature, dynamic resource creation framework for Rails.
 
 ## What It Does
